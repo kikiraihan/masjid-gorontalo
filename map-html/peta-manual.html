@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- <style>
+        #map { height: 580px; }
+    </style> -->
+</head>
+<body>
+    <div id="map" class="h-screen"></div>
+    <script>
+
+
+        // Ganti dengan URL dari file CSV yang ada di server Anda
+        const csvFileUrl = '../data/koordinat_masjid.csv';
+        fetch(csvFileUrl)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.text();
+          })
+          .then(text => {
+            const data = parseCSV(text);
+            console.log(data);
+            // Lakukan sesuatu dengan data CSV
+          })
+          .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+          });
+      
+        function parseCSV(text) {
+          const lines = text.split('\n').filter(line => line.trim() !== '');
+          return lines.map(line => line.split(','));
+        }
+
+
+
+        // initialize map
+        var map = L.map('map').setView([51.505, -0.09], 13);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([51.5, -0.09]).addTo(map)
+            .bindPopup('A pretty CSS popup.<br> Easily customizable.')
+            .openPopup();
+    </script>
+</body>
+</html>

@@ -1,0 +1,2706 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_27456a388306c689ac80226db845bccd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_27456a388306c689ac80226db845bccd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_27456a388306c689ac80226db845bccd = L.map(
+                "map_27456a388306c689ac80226db845bccd",
+                {
+                    center: [0.5954200000000001, 122.72905349397595],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f78b86caa9171d9d738c924c0afe931 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8f78b86caa9171d9d738c924c0afe931.addTo(map_27456a388306c689ac80226db845bccd);
+        
+    
+            var feature_group_0d396fd9d6465532baa8d165fde530b4 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_18d64287021b1f60441e4dd86a2f8ea4 = L.marker(
+                [0.33756, 123.46097],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_c39de361cdc3905f4d0ea0c22e0befa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_18d64287021b1f60441e4dd86a2f8ea4.setIcon(icon_c39de361cdc3905f4d0ea0c22e0befa1);
+        
+    
+            marker_18d64287021b1f60441e4dd86a2f8ea4.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Ikhlas Bone<br>
+                <b>Lat:</b> 0.33756<br>
+                <b>Long:</b> 123.46097<br>
+                <b>color:</b> #eefd65<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_ec3378dcffdb71a874242a7eaa52041e = L.polyline(
+                [[0.33756, 123.46097], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_1f6f698a73abd5752eb9bface97b1dcc = L.marker(
+                [0.31044, 123.34598],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_9a658c37e746a511355013f3d397afe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1f6f698a73abd5752eb9bface97b1dcc.setIcon(icon_9a658c37e746a511355013f3d397afe0);
+        
+    
+            marker_1f6f698a73abd5752eb9bface97b1dcc.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Ihsan Bone Raya<br>
+                <b>Lat:</b> 0.31044<br>
+                <b>Long:</b> 123.34598<br>
+                <b>color:</b> #5f10e4<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_f47d669f095fc9389ccf6af8bc629b43 = L.polyline(
+                [[0.31044, 123.34598], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_de35671d53dedc4af8e6e25af4ef2db0 = L.marker(
+                [0.32442, 123.27561],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_7e2c6e4be224f1d98f1fa601d53e3d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_de35671d53dedc4af8e6e25af4ef2db0.setIcon(icon_7e2c6e4be224f1d98f1fa601d53e3d0b);
+        
+    
+            marker_de35671d53dedc4af8e6e25af4ef2db0.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> At Taibah Bulawa<br>
+                <b>Lat:</b> 0.32442<br>
+                <b>Long:</b> 123.27561<br>
+                <b>color:</b> #1bdd24<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_1c06fc00c65b8ed1ac8f8b3a43d8b4d4 = L.polyline(
+                [[0.32442, 123.27561], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_c86d19dab6e69335c488ca3900cfe38a = L.marker(
+                [0.51472, 123.22386],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_9bea0ba5d1cb3fc8cb4ce2bf3a7e04e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c86d19dab6e69335c488ca3900cfe38a.setIcon(icon_9bea0ba5d1cb3fc8cb4ce2bf3a7e04e5);
+        
+    
+            marker_c86d19dab6e69335c488ca3900cfe38a.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Arqam Suwawa Timur<br>
+                <b>Lat:</b> 0.51472<br>
+                <b>Long:</b> 123.22386<br>
+                <b>color:</b> #3f6887<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_ac387fb5f0bde93d43c5151615b5a5dd = L.polyline(
+                [[0.51472, 123.22386], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_d6972764090488e968dd02118d03d073 = L.marker(
+                [0.38017, 123.21278],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_bc8a2c0e4ae35fecbb91aea35516fd13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d6972764090488e968dd02118d03d073.setIcon(icon_bc8a2c0e4ae35fecbb91aea35516fd13);
+        
+    
+            marker_d6972764090488e968dd02118d03d073.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nurul Ihklas Bone Pantai<br>
+                <b>Lat:</b> 0.38017<br>
+                <b>Long:</b> 123.21278<br>
+                <b>color:</b> #6d48c3<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_8b95f13be403a685ec1c5bb19422a8c9 = L.polyline(
+                [[0.38017, 123.21278], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_9b43df69a88f932a163d0fc9892007f6 = L.marker(
+                [0.52233, 123.16664],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_1ea860793c1ceaff61bacdf2a98115ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9b43df69a88f932a163d0fc9892007f6.setIcon(icon_1ea860793c1ceaff61bacdf2a98115ff);
+        
+    
+            marker_9b43df69a88f932a163d0fc9892007f6.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Istiqamah Suwawa Selatan<br>
+                <b>Lat:</b> 0.52233<br>
+                <b>Long:</b> 123.16664<br>
+                <b>color:</b> #50c763<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_b050150849b761f7cd8fec4aa4821040 = L.polyline(
+                [[0.52233, 123.16664], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_d077f135ae1d1a525c92e4940388fde2 = L.marker(
+                [0.53294, 123.15797],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_c68698e9a5c97999f0f83c355f41f0de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d077f135ae1d1a525c92e4940388fde2.setIcon(icon_c68698e9a5c97999f0f83c355f41f0de);
+        
+    
+            marker_d077f135ae1d1a525c92e4940388fde2.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An Nuur Suwawa Tengah<br>
+                <b>Lat:</b> 0.53294<br>
+                <b>Long:</b> 123.15797<br>
+                <b>color:</b> #c1f478<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_fc44a41a9759be0e1f3eae769ebd96ca = L.polyline(
+                [[0.53294, 123.15797], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_9fec604b5b3158aa88c2eac975d01356 = L.marker(
+                [0.53486, 123.13514],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_d9a170c280ca5fb1827b84e212e11d3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9fec604b5b3158aa88c2eac975d01356.setIcon(icon_d9a170c280ca5fb1827b84e212e11d3f);
+        
+    
+            marker_9fec604b5b3158aa88c2eac975d01356.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Marhamah Suwawa<br>
+                <b>Lat:</b> 0.53486<br>
+                <b>Long:</b> 123.13514<br>
+                <b>color:</b> #9c7a9a<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_51796b98f8845808fffba95b1f39fb49 = L.polyline(
+                [[0.53486, 123.13514], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_467e6c6fbf08f2b181811a9f7ead317c = L.marker(
+                [0.65994, 123.13436],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_af45b6901a9bbae1abe0ca93fc63c84d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_467e6c6fbf08f2b181811a9f7ead317c.setIcon(icon_af45b6901a9bbae1abe0ca93fc63c84d);
+        
+    
+            marker_467e6c6fbf08f2b181811a9f7ead317c.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Abidin Bulango Ulu<br>
+                <b>Lat:</b> 0.65994<br>
+                <b>Long:</b> 123.13436<br>
+                <b>color:</b> #5f89e3<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_4a9a2d59d2d6ef1c054de122c19def67 = L.polyline(
+                [[0.65994, 123.13436], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_50e99a980714d96198799467a67c2694 = L.marker(
+                [0.57431, 123.11353],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_cd8efc5a69c5852305436047df2d7ede = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_50e99a980714d96198799467a67c2694.setIcon(icon_cd8efc5a69c5852305436047df2d7ede);
+        
+    
+            marker_50e99a980714d96198799467a67c2694.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Misbah Tilongkabila<br>
+                <b>Lat:</b> 0.57431<br>
+                <b>Long:</b> 123.11353<br>
+                <b>color:</b> #074c07<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_53f2822b5d65aabb3fb269fe172e4b90 = L.polyline(
+                [[0.57431, 123.11353], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_e09889657aa8b40440335bec08caaed4 = L.marker(
+                [0.47161, 123.10503],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_5a97149728ef012ef0004637244885ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e09889657aa8b40440335bec08caaed4.setIcon(icon_5a97149728ef012ef0004637244885ef);
+        
+    
+            marker_e09889657aa8b40440335bec08caaed4.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Iman Kabila Bone<br>
+                <b>Lat:</b> 0.47161<br>
+                <b>Long:</b> 123.10503<br>
+                <b>color:</b> #21c825<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_716cffee362beafb52aa309884618425 = L.polyline(
+                [[0.47161, 123.10503], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_1b3e87196f341146c7f2854d7ee601db = L.marker(
+                [0.52756, 123.10264],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_1437dad639ad4372b1000c1c8cac1966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1b3e87196f341146c7f2854d7ee601db.setIcon(icon_1437dad639ad4372b1000c1c8cac1966);
+        
+    
+            marker_1b3e87196f341146c7f2854d7ee601db.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Hidayah Botupingge<br>
+                <b>Lat:</b> 0.52756<br>
+                <b>Long:</b> 123.10264<br>
+                <b>color:</b> #e47108<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_5566ee1bee931dd89045aba520ec8194 = L.polyline(
+                [[0.52756, 123.10264], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_6711b2b6b2185c6c270763591c9fde5e = L.marker(
+                [0.59964, 123.09797],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_68b9ea4cdeb017bb687502c109b215c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6711b2b6b2185c6c270763591c9fde5e.setIcon(icon_68b9ea4cdeb017bb687502c109b215c0);
+        
+    
+            marker_6711b2b6b2185c6c270763591c9fde5e.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Mujahidin Bulango Timur<br>
+                <b>Lat:</b> 0.59964<br>
+                <b>Long:</b> 123.09797<br>
+                <b>color:</b> #225741<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_7bcaa5762bdc604aa3f26b96568dabad = L.polyline(
+                [[0.59964, 123.09797], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_890cd8dc38e1b91d69cf1fec875ce37f = L.marker(
+                [0.54192, 123.09414],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_b575575b9a7dfd1fb7f8334ef6fb6f39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_890cd8dc38e1b91d69cf1fec875ce37f.setIcon(icon_b575575b9a7dfd1fb7f8334ef6fb6f39);
+        
+    
+            marker_890cd8dc38e1b91d69cf1fec875ce37f.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Mutakaddir Kabila<br>
+                <b>Lat:</b> 0.54192<br>
+                <b>Long:</b> 123.09414<br>
+                <b>color:</b> #3232c3<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_24b519731afe0ad67351ed2c27dac488 = L.polyline(
+                [[0.54192, 123.09414], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_bdbe41468afd2695c7673b08276e2d10 = L.marker(
+                [0.63361, 123.08483],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_369850c8a390ee7d3a10aaaf557fd8c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bdbe41468afd2695c7673b08276e2d10.setIcon(icon_369850c8a390ee7d3a10aaaf557fd8c0);
+        
+    
+            marker_bdbe41468afd2695c7673b08276e2d10.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An Nuur Bulango Utara<br>
+                <b>Lat:</b> 0.63361<br>
+                <b>Long:</b> 123.08483<br>
+                <b>color:</b> #7e5c83<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_71ee0adb43a9fe7b5f5b8c9788dc1501 = L.polyline(
+                [[0.63361, 123.08483], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_ac63da8537a2280a3c660bd6107d62ba = L.marker(
+                [0.61117, 123.0835],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_dcbc2e617bbd04e8e51d1804b7ef3c97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ac63da8537a2280a3c660bd6107d62ba.setIcon(icon_dcbc2e617bbd04e8e51d1804b7ef3c97);
+        
+    
+            marker_ac63da8537a2280a3c660bd6107d62ba.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Mutathahhirin Tapa<br>
+                <b>Lat:</b> 0.61117<br>
+                <b>Long:</b> 123.0835<br>
+                <b>color:</b> #f79a91<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_822bd01e4602dbb82b76548c7b51f005 = L.polyline(
+                [[0.61117, 123.0835], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_369be683404b930eff783f70b95dc91e = L.marker(
+                [0.60022, 123.07444],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_2b56fac052a17eb984851b472a3f116f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_369be683404b930eff783f70b95dc91e.setIcon(icon_2b56fac052a17eb984851b472a3f116f);
+        
+    
+            marker_369be683404b930eff783f70b95dc91e.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Khairat Bulango Selatan<br>
+                <b>Lat:</b> 0.60022<br>
+                <b>Long:</b> 123.07444<br>
+                <b>color:</b> #f912e2<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_af49ca4ade3704597a9c9c387a3d1975 = L.polyline(
+                [[0.60022, 123.07444], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_35a2300b897f93f74bf45bc9bf5b16e1 = L.marker(
+                [0.54494, 123.09444],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_f3db396ef95cd2096ce3b2ac0bca406c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_35a2300b897f93f74bf45bc9bf5b16e1.setIcon(icon_f3db396ef95cd2096ce3b2ac0bca406c);
+        
+    
+            marker_35a2300b897f93f74bf45bc9bf5b16e1.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Muhajirin Kabila<br>
+                <b>Lat:</b> 0.54494<br>
+                <b>Long:</b> 123.09444<br>
+                <b>color:</b> #ee99e4<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_54f52b68c13cbaad5ce6baefd6146380 = L.polyline(
+                [[0.54494, 123.09444], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_90bedce95e97bf07dd02745d8ab27b7f = L.marker(
+                [0.53639, 123.13583],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_82c7177d05d9253113ba1b75ff1aa8f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_90bedce95e97bf07dd02745d8ab27b7f.setIcon(icon_82c7177d05d9253113ba1b75ff1aa8f9);
+        
+    
+            marker_90bedce95e97bf07dd02745d8ab27b7f.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Wira Bakti Suwawa<br>
+                <b>Lat:</b> 0.53639<br>
+                <b>Long:</b> 123.13583<br>
+                <b>color:</b> #699a80<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_28d064c4a2c1d25aec115a9ea9874a4a = L.polyline(
+                [[0.53639, 123.13583], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_7a64e962e9e720bcd81f42345c95424e = L.marker(
+                [0.46894, 123.10597],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_4cebc851acbbff3dc672692465d42eb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7a64e962e9e720bcd81f42345c95424e.setIcon(icon_4cebc851acbbff3dc672692465d42eb2);
+        
+    
+            marker_7a64e962e9e720bcd81f42345c95424e.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Az Zikra Kabila Bone<br>
+                <b>Lat:</b> 0.46894<br>
+                <b>Long:</b> 123.10597<br>
+                <b>color:</b> #414e4c<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_31294e7769e8ee57c3f8eab861956097 = L.polyline(
+                [[0.46894, 123.10597], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_b35dc8ec0d5ce962d3c1c31edcf5cc35 = L.marker(
+                [0.56722, 123.06917],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_86f96fefc3943832cf55496ac181a7bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b35dc8ec0d5ce962d3c1c31edcf5cc35.setIcon(icon_86f96fefc3943832cf55496ac181a7bb);
+        
+    
+            marker_b35dc8ec0d5ce962d3c1c31edcf5cc35.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nurul Jannah Kota Utara<br>
+                <b>Lat:</b> 0.56722<br>
+                <b>Long:</b> 123.06917<br>
+                <b>color:</b> #45379b<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_ce1f8ffd67c1516ac837de915aa6c25f = L.polyline(
+                [[0.56722, 123.06917], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_641903cc9524ffaca458bb797a1f9158 = L.marker(
+                [0.52111, 123.065],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_4dc97bd5f79effd12a2892ec8f25365d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_641903cc9524ffaca458bb797a1f9158.setIcon(icon_4dc97bd5f79effd12a2892ec8f25365d);
+        
+    
+            marker_641903cc9524ffaca458bb797a1f9158.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Ikhlas Dumbo Raya<br>
+                <b>Lat:</b> 0.52111<br>
+                <b>Long:</b> 123.065<br>
+                <b>color:</b> #752011<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_0f3dcd09c5b511ec71ea47ca7e93e1d4 = L.polyline(
+                [[0.52111, 123.065], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_2a5f37cfe5cb315168ea6faac3f95be3 = L.marker(
+                [0.52917, 123.0625],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_6fa1447771d0ce7a62f22e9efdd4b2b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2a5f37cfe5cb315168ea6faac3f95be3.setIcon(icon_6fa1447771d0ce7a62f22e9efdd4b2b7);
+        
+    
+            marker_2a5f37cfe5cb315168ea6faac3f95be3.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Jauhar Kota Timur<br>
+                <b>Lat:</b> 0.52917<br>
+                <b>Long:</b> 123.0625<br>
+                <b>color:</b> #c5cee0<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_04781c1ab4b7ed9cb0119605e6ecf547 = L.polyline(
+                [[0.52917, 123.0625], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_ae49067dc46f9d7826d29c0b2558049e = L.marker(
+                [0.53778, 123.06028],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_a4ddcae781e446f4271b223784f7b59c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ae49067dc46f9d7826d29c0b2558049e.setIcon(icon_a4ddcae781e446f4271b223784f7b59c);
+        
+    
+            marker_ae49067dc46f9d7826d29c0b2558049e.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Baiturrahim Kota Selatan<br>
+                <b>Lat:</b> 0.53778<br>
+                <b>Long:</b> 123.06028<br>
+                <b>color:</b> #c8829b<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_02d0c021b1833300067f1ae872d2242d = L.polyline(
+                [[0.53778, 123.06028], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_652584d9f3bba51e7f6e8aa1f9638127 = L.marker(
+                [0.53042, 123.05611],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_7de42455731e5627b574bfeabe84e0b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_652584d9f3bba51e7f6e8aa1f9638127.setIcon(icon_7de42455731e5627b574bfeabe84e0b7);
+        
+    
+            marker_652584d9f3bba51e7f6e8aa1f9638127.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Arrahman Hulondhalangi<br>
+                <b>Lat:</b> 0.53042<br>
+                <b>Long:</b> 123.05611<br>
+                <b>color:</b> #60e88c<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_b6f4a620016f3a346d1dc69352ffddb3 = L.polyline(
+                [[0.53042, 123.05611], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_a3a84e3bdd3aa38ac77e8aea7cacf5bb = L.marker(
+                [0.58028, 123.05472],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_f269c1ab8080f05492da725ab4890441 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a3a84e3bdd3aa38ac77e8aea7cacf5bb.setIcon(icon_f269c1ab8080f05492da725ab4890441);
+        
+    
+            marker_a3a84e3bdd3aa38ac77e8aea7cacf5bb.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Mukhlisin Sipatana<br>
+                <b>Lat:</b> 0.58028<br>
+                <b>Long:</b> 123.05472<br>
+                <b>color:</b> #e9c92f<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_9b83e30cb3070b84483e0637a1fede85 = L.polyline(
+                [[0.58028, 123.05472], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_66fca13e0e18e49d83d35b3ef9fb67db = L.marker(
+                [0.56944, 123.04944],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_26eef39bbb64745a37de4b89a371ee50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_66fca13e0e18e49d83d35b3ef9fb67db.setIcon(icon_26eef39bbb64745a37de4b89a371ee50);
+        
+    
+            marker_66fca13e0e18e49d83d35b3ef9fb67db.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Almuhajirin Kota Tengah<br>
+                <b>Lat:</b> 0.56944<br>
+                <b>Long:</b> 123.04944<br>
+                <b>color:</b> #f8075d<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_fc48d7523890a5e3b78b3927002f2daf = L.polyline(
+                [[0.56944, 123.04944], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_a95250efc0e0e9495f15b5552a6c1eb0 = L.marker(
+                [0.56944, 123.03667],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_59a1d846281ca1fbc550a0cc97ef1966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a95250efc0e0e9495f15b5552a6c1eb0.setIcon(icon_59a1d846281ca1fbc550a0cc97ef1966);
+        
+    
+            marker_a95250efc0e0e9495f15b5552a6c1eb0.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Jaariyat Dungingi<br>
+                <b>Lat:</b> 0.56944<br>
+                <b>Long:</b> 123.03667<br>
+                <b>color:</b> #4f8a12<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_22c353f24b12ad6ca831c205c8efd8ba = L.polyline(
+                [[0.56944, 123.03667], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_77a0424b3bf1f1f02f446a0aa4493ceb = L.marker(
+                [0.54917, 123.03417],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_ac6496e11fbd6d182de96b0bac96452d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_77a0424b3bf1f1f02f446a0aa4493ceb.setIcon(icon_ac6496e11fbd6d182de96b0bac96452d);
+        
+    
+            marker_77a0424b3bf1f1f02f446a0aa4493ceb.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Isra” Kota Barat<br>
+                <b>Lat:</b> 0.54917<br>
+                <b>Long:</b> 123.03417<br>
+                <b>color:</b> #7a07f7<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_1c619c5f7ac612264591631fe36594c8 = L.polyline(
+                [[0.54917, 123.03417], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_d1ff022c64863ae720d4e6e31eb71fbd = L.marker(
+                [0.54639, 123.05889],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_2e424172de762bd1610c796af5705e4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d1ff022c64863ae720d4e6e31eb71fbd.setIcon(icon_2e424172de762bd1610c796af5705e4f);
+        
+    
+            marker_d1ff022c64863ae720d4e6e31eb71fbd.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Jamaah Kota Selatan<br>
+                <b>Lat:</b> 0.54639<br>
+                <b>Long:</b> 123.05889<br>
+                <b>color:</b> #3f138b<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_e618efe6483e1c938ea7f96be13ecf8c = L.polyline(
+                [[0.54639, 123.05889], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_3388b95eb1d1fd8ac69d30b26301ea16 = L.marker(
+                [0.53972, 123.05833],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_0a43eefbde8807c40e1d1ce4c6a08fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3388b95eb1d1fd8ac69d30b26301ea16.setIcon(icon_0a43eefbde8807c40e1d1ce4c6a08fb9);
+        
+    
+            marker_3388b95eb1d1fd8ac69d30b26301ea16.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Sabilulhuda Kota Timur<br>
+                <b>Lat:</b> 0.53972<br>
+                <b>Long:</b> 123.05833<br>
+                <b>color:</b> #42c59c<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_d0802bd8374c77228930b89a855b64f6 = L.polyline(
+                [[0.53972, 123.05833], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_9bb8d7ac41b11cc7cd11766e1d4a3f61 = L.marker(
+                [0.54111, 123.06111],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_aef29b005d2b8634643f76f493bd9a32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9bb8d7ac41b11cc7cd11766e1d4a3f61.setIcon(icon_aef29b005d2b8634643f76f493bd9a32);
+        
+    
+            marker_9bb8d7ac41b11cc7cd11766e1d4a3f61.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Darur Arkam Kota<br>
+                <b>Lat:</b> 0.54111<br>
+                <b>Long:</b> 123.06111<br>
+                <b>color:</b> #f294c6<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_a017930732d82663069bcdc065a2a3fc = L.polyline(
+                [[0.54111, 123.06111], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_c67061d864797b272cf54e9ff3e1b6cb = L.marker(
+                [0.5775, 123.04472],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_ca176de80ab536efea8b193c67c62bf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c67061d864797b272cf54e9ff3e1b6cb.setIcon(icon_ca176de80ab536efea8b193c67c62bf2);
+        
+    
+            marker_c67061d864797b272cf54e9ff3e1b6cb.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Arrahman Telaga<br>
+                <b>Lat:</b> 0.5775<br>
+                <b>Long:</b> 123.04472<br>
+                <b>color:</b> #023ccd<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_7134f1a277bb069b80bb66083335b885 = L.polyline(
+                [[0.5775, 123.04472], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_5c6fe1236a3b219779c403228b5bde4f = L.marker(
+                [0.60378, 123.02992],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_e374457f82651db8e02aeebf27651cd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5c6fe1236a3b219779c403228b5bde4f.setIcon(icon_e374457f82651db8e02aeebf27651cd4);
+        
+    
+            marker_5c6fe1236a3b219779c403228b5bde4f.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Muhidiin Telaga Biru<br>
+                <b>Lat:</b> 0.60378<br>
+                <b>Long:</b> 123.02992<br>
+                <b>color:</b> #62f79d<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_0a38d8f6df937278f1e30901890045e6 = L.polyline(
+                [[0.60378, 123.02992], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_b4a30760db1dec464eb684d7cda78e74 = L.marker(
+                [0.56897, 123.02972],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_06528de503c5435cd65541257cc9c652 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b4a30760db1dec464eb684d7cda78e74.setIcon(icon_06528de503c5435cd65541257cc9c652);
+        
+    
+            marker_b4a30760db1dec464eb684d7cda78e74.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Muttaqiin Tilango<br>
+                <b>Lat:</b> 0.56897<br>
+                <b>Long:</b> 123.02972<br>
+                <b>color:</b> #4f0f47<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_a3e4a7847b8e87199c2948fc57fdf6ea = L.polyline(
+                [[0.56897, 123.02972], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_2799b2cee437bc789fd1dcd316065f69 = L.marker(
+                [0.57811, 123.02672],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_9c9977bafab8fe027968914b5a8ae692 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2799b2cee437bc789fd1dcd316065f69.setIcon(icon_9c9977bafab8fe027968914b5a8ae692);
+        
+    
+            marker_2799b2cee437bc789fd1dcd316065f69.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Baiturridha Telaga Jaya<br>
+                <b>Lat:</b> 0.57811<br>
+                <b>Long:</b> 123.02672<br>
+                <b>color:</b> #6e9cd7<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_085edaa3f0a2014d5bc9d12280cc654f = L.polyline(
+                [[0.57811, 123.02672], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_f256a1f6a6f4d6ee7a8bbdb1b4700222 = L.marker(
+                [0.49519, 122.99919],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_d01c89a755f2276dbbdeb927fde9b92d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f256a1f6a6f4d6ee7a8bbdb1b4700222.setIcon(icon_d01c89a755f2276dbbdeb927fde9b92d);
+        
+    
+            marker_f256a1f6a6f4d6ee7a8bbdb1b4700222.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nurul Amiim Batudaa Pentai<br>
+                <b>Lat:</b> 0.49519<br>
+                <b>Long:</b> 122.99919<br>
+                <b>color:</b> #a4c6af<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_f2b744aca612ca9b1d5e9887834116be = L.polyline(
+                [[0.49519, 122.99919], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_e843130540ce6e9a6ebaa9e71345f61b = L.marker(
+                [0.62689, 122.98028],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_6ccedf392fded7b52ede0e8c648616e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e843130540ce6e9a6ebaa9e71345f61b.setIcon(icon_6ccedf392fded7b52ede0e8c648616e5);
+        
+    
+            marker_e843130540ce6e9a6ebaa9e71345f61b.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> MA. Baiturrahman Limboto<br>
+                <b>Lat:</b> 0.62689<br>
+                <b>Long:</b> 122.98028<br>
+                <b>color:</b> #752c2d<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_6f2470216fd2c808f7efab86e6545fe7 = L.polyline(
+                [[0.62689, 122.98028], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_5602c00fdd4c9b3837d0df99d5eb5719 = L.marker(
+                [0.56203, 122.95114],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_f0d31515220219ee242f1007094edaa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5602c00fdd4c9b3837d0df99d5eb5719.setIcon(icon_f0d31515220219ee242f1007094edaa6);
+        
+    
+            marker_5602c00fdd4c9b3837d0df99d5eb5719.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Darussalam Batudaa<br>
+                <b>Lat:</b> 0.56203<br>
+                <b>Long:</b> 122.95114<br>
+                <b>color:</b> #7b8f38<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_99f1718598a540cf99adeb050fd72491 = L.polyline(
+                [[0.56203, 122.95114], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_72819f4438518dd47934ee64f466d065 = L.marker(
+                [0.63806, 122.94472],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_a219293422ca188b3d63930e79bda21c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_72819f4438518dd47934ee64f466d065.setIcon(icon_a219293422ca188b3d63930e79bda21c);
+        
+    
+            marker_72819f4438518dd47934ee64f466d065.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An Nuur Limboto Barat<br>
+                <b>Lat:</b> 0.63806<br>
+                <b>Long:</b> 122.94472<br>
+                <b>color:</b> #4b9c2e<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_8774b4f852910611f45927c672425355 = L.polyline(
+                [[0.63806, 122.94472], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_1805e669b18ac2a7dd3b2c390b9b9865 = L.marker(
+                [0.61992, 122.93944],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_13828dfe80bfde8735a3c500c73f4d9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1805e669b18ac2a7dd3b2c390b9b9865.setIcon(icon_13828dfe80bfde8735a3c500c73f4d9b);
+        
+    
+            marker_1805e669b18ac2a7dd3b2c390b9b9865.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nuruttaqwa Limboto<br>
+                <b>Lat:</b> 0.61992<br>
+                <b>Long:</b> 122.93944<br>
+                <b>color:</b> #07ce90<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_4d7e9032ff175d9303db3374c97e6b55 = L.polyline(
+                [[0.61992, 122.93944], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_46c078bc60212fdb3d382785a2a7d106 = L.marker(
+                [0.57447, 122.93175],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_3cec803a79bfd12592d3356f9270471f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_46c078bc60212fdb3d382785a2a7d106.setIcon(icon_3cec803a79bfd12592d3356f9270471f);
+        
+    
+            marker_46c078bc60212fdb3d382785a2a7d106.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Jihad Tabongo<br>
+                <b>Lat:</b> 0.57447<br>
+                <b>Long:</b> 122.93175<br>
+                <b>color:</b> #72a765<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_efc64404db3cf566c099220479028cdb = L.polyline(
+                [[0.57447, 122.93175], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_7b842fd53b70a2c24b76e6dfb899a369 = L.marker(
+                [0.60081, 122.86725],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_218bef8ab1bc72a703b0c1dc22457ca6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7b842fd53b70a2c24b76e6dfb899a369.setIcon(icon_218bef8ab1bc72a703b0c1dc22457ca6);
+        
+    
+            marker_7b842fd53b70a2c24b76e6dfb899a369.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An Nuur Bongomeme<br>
+                <b>Lat:</b> 0.60081<br>
+                <b>Long:</b> 122.86725<br>
+                <b>color:</b> #33ae7a<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_04273aebb1ad768cdfe3c9c09b179268 = L.polyline(
+                [[0.60081, 122.86725], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_1f16a070ae456a0cdf7dfea74825b03a = L.marker(
+                [0.65008, 122.85742],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_79db3f8a745e06bbc274c5ebdfe460a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1f16a070ae456a0cdf7dfea74825b03a.setIcon(icon_79db3f8a745e06bbc274c5ebdfe460a5);
+        
+    
+            marker_1f16a070ae456a0cdf7dfea74825b03a.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Baiturrahman Isimu Tibawa<br>
+                <b>Lat:</b> 0.65008<br>
+                <b>Long:</b> 122.85742<br>
+                <b>color:</b> #5491ed<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_a84f7a1b6684eca697f5ca11d16446d6 = L.polyline(
+                [[0.65008, 122.85742], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_2df05ed940df5b04f3951b1620f14a69 = L.marker(
+                [0.6525, 122.80139],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_5f0d10dc959b6778c041fb5ef0e33e33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2df05ed940df5b04f3951b1620f14a69.setIcon(icon_5f0d10dc959b6778c041fb5ef0e33e33);
+        
+    
+            marker_2df05ed940df5b04f3951b1620f14a69.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Arraidha Pulubala<br>
+                <b>Lat:</b> 0.6525<br>
+                <b>Long:</b> 122.80139<br>
+                <b>color:</b> #671a89<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_e21e0206d427c9e500b03a1ea497d61f = L.polyline(
+                [[0.6525, 122.80139], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_84cd4a42dfa5c59c792a729dcdd73ebd = L.marker(
+                [0.48333, 122.8],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_0fc921f51718cbe980bd712e65020d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_84cd4a42dfa5c59c792a729dcdd73ebd.setIcon(icon_0fc921f51718cbe980bd712e65020d01);
+        
+    
+            marker_84cd4a42dfa5c59c792a729dcdd73ebd.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nuurul Iman Biluhu<br>
+                <b>Lat:</b> 0.48333<br>
+                <b>Long:</b> 122.8<br>
+                <b>color:</b> #03dfcd<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_eb556c592465a5319b29952a3b1d73be = L.polyline(
+                [[0.48333, 122.8], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_06655a60c8e1297d6e18364367c96632 = L.marker(
+                [0.70028, 122.64347],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_de4d61b4964a8bf4ba5433bee7db7af1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_06655a60c8e1297d6e18364367c96632.setIcon(icon_de4d61b4964a8bf4ba5433bee7db7af1);
+        
+    
+            marker_06655a60c8e1297d6e18364367c96632.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An Nuur Mootilango<br>
+                <b>Lat:</b> 0.70028<br>
+                <b>Long:</b> 122.64347<br>
+                <b>color:</b> #b3eeff<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_c2f6659ed69cb42c12fdd9128c8c22c8 = L.polyline(
+                [[0.70028, 122.64347], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_c016a53330c76906750935691909cdf7 = L.marker(
+                [0.67144, 122.60333],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_91cd126ac2dd9086c8f9be0408b7f5a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c016a53330c76906750935691909cdf7.setIcon(icon_91cd126ac2dd9086c8f9be0408b7f5a1);
+        
+    
+            marker_c016a53330c76906750935691909cdf7.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Ar Rahman Boliyohuto<br>
+                <b>Lat:</b> 0.67144<br>
+                <b>Long:</b> 122.60333<br>
+                <b>color:</b> #b5f739<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_97549036b043ee449ba8f42882c4f8a6 = L.polyline(
+                [[0.67144, 122.60333], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_560094d3eee4c437a76302e3184157f3 = L.marker(
+                [0.70033, 122.55889],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_cb608b0f11290ca461951067f76dc3f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_560094d3eee4c437a76302e3184157f3.setIcon(icon_cb608b0f11290ca461951067f76dc3f0);
+        
+    
+            marker_560094d3eee4c437a76302e3184157f3.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Muhaajirin Tolangohula<br>
+                <b>Lat:</b> 0.70033<br>
+                <b>Long:</b> 122.55889<br>
+                <b>color:</b> #2e5cc7<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_4a003a513446bd2d1b20856738e9822f = L.polyline(
+                [[0.70033, 122.55889], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_6d75b6df69c9b5404defcfdc5ddd4708 = L.marker(
+                [0.77236, 122.47378],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_b09f7bfc7727511844f56087302a3bf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6d75b6df69c9b5404defcfdc5ddd4708.setIcon(icon_b09f7bfc7727511844f56087302a3bf3);
+        
+    
+            marker_6d75b6df69c9b5404defcfdc5ddd4708.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nuur Iman Asparaga<br>
+                <b>Lat:</b> 0.77236<br>
+                <b>Long:</b> 122.47378<br>
+                <b>color:</b> #69e02b<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_067361fea32a1c15c1d0b33f208eeb9c = L.polyline(
+                [[0.77236, 122.47378], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_63df457ffd008413e0501fa211c0922d = L.marker(
+                [0.89697, 123.11717],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_2c1c7eb4766487833bfa2332f871a356 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_63df457ffd008413e0501fa211c0922d.setIcon(icon_2c1c7eb4766487833bfa2332f871a356);
+        
+    
+            marker_63df457ffd008413e0501fa211c0922d.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Almunawarah Atinggola<br>
+                <b>Lat:</b> 0.89697<br>
+                <b>Long:</b> 123.11717<br>
+                <b>color:</b> #99743e<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_4aa4979f87b4c0ca152f4166889ece83 = L.polyline(
+                [[0.89697, 123.11717], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_f09f9a26a5bba7362ae6a006d9980408 = L.marker(
+                [0.92539, 123.03781],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_1d8e5522e09884348587c12c208bf719 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f09f9a26a5bba7362ae6a006d9980408.setIcon(icon_1d8e5522e09884348587c12c208bf719);
+        
+    
+            marker_f09f9a26a5bba7362ae6a006d9980408.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> At Taqwa Gentuma<br>
+                <b>Lat:</b> 0.92539<br>
+                <b>Long:</b> 123.03781<br>
+                <b>color:</b> #b4ab5d<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_921d8e6ed456efb56cd045d363ec6fbc = L.polyline(
+                [[0.92539, 123.03781], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_fab9a4ebf132e92c03df80456cef6538 = L.marker(
+                [0.88256, 122.94447],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_4de50f447ab3cae1656673ebcffde3ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fab9a4ebf132e92c03df80456cef6538.setIcon(icon_4de50f447ab3cae1656673ebcffde3ca);
+        
+    
+            marker_fab9a4ebf132e92c03df80456cef6538.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Hijrah Tomelito<br>
+                <b>Lat:</b> 0.88256<br>
+                <b>Long:</b> 122.94447<br>
+                <b>color:</b> #9698aa<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_0f41099096905d54aaadc3ae67ecdbf6 = L.polyline(
+                [[0.88256, 122.94447], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_a823742c441420b1a5a07bfa6ba88b43 = L.marker(
+                [0.8335, 122.91653],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_0f37a8c1a650483c5ab2059c595e5da4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a823742c441420b1a5a07bfa6ba88b43.setIcon(icon_0f37a8c1a650483c5ab2059c595e5da4);
+        
+    
+            marker_a823742c441420b1a5a07bfa6ba88b43.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> At Taqwa Kwandang<br>
+                <b>Lat:</b> 0.8335<br>
+                <b>Long:</b> 122.91653<br>
+                <b>color:</b> #edb21b<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_b83e28868c0aae1f83d506cbb7d44b7b = L.polyline(
+                [[0.8335, 122.91653], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_11b29def7e87666590a64c0fb8e217d0 = L.marker(
+                [0.83578, 122.91581],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_aa74842a8f68e557bc90feedc672c6ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_11b29def7e87666590a64c0fb8e217d0.setIcon(icon_aa74842a8f68e557bc90feedc672c6ac);
+        
+    
+            marker_11b29def7e87666590a64c0fb8e217d0.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> MA. Baiturrahim Gorut<br>
+                <b>Lat:</b> 0.83578<br>
+                <b>Long:</b> 122.91581<br>
+                <b>color:</b> #1c0c1d<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_d046d7f5f719de6abc55ad614f05d7f6 = L.polyline(
+                [[0.83578, 122.91581], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_9232a79fff70d23dbd25ddcf4753de47 = L.marker(
+                [0.88964, 122.88742],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_813a4cf5a88ffdb08b8b3216ddff6378 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9232a79fff70d23dbd25ddcf4753de47.setIcon(icon_813a4cf5a88ffdb08b8b3216ddff6378);
+        
+    
+            marker_9232a79fff70d23dbd25ddcf4753de47.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Bakrun Ponelo<br>
+                <b>Lat:</b> 0.88964<br>
+                <b>Long:</b> 122.88742<br>
+                <b>color:</b> #ce8b79<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_68db325ff178d195b6afdda577c26925 = L.polyline(
+                [[0.88964, 122.88742], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_8269220b620a47508f899d63ba9047c4 = L.marker(
+                [0.84731, 122.774],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_981950e6881caea2110c106f4bf15c4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8269220b620a47508f899d63ba9047c4.setIcon(icon_981950e6881caea2110c106f4bf15c4c);
+        
+    
+            marker_8269220b620a47508f899d63ba9047c4.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Baitul Hamdi Anggrek<br>
+                <b>Lat:</b> 0.84731<br>
+                <b>Long:</b> 122.774<br>
+                <b>color:</b> #a222a8<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_4e44e5a3bb270fa49f4e15a343671aec = L.polyline(
+                [[0.84731, 122.774], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_724d73f5d43cf06a1bd3b2c181e9be01 = L.marker(
+                [0.86772, 122.69808],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_2a33462e63d58d15ac252efadcd028e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_724d73f5d43cf06a1bd3b2c181e9be01.setIcon(icon_2a33462e63d58d15ac252efadcd028e8);
+        
+    
+            marker_724d73f5d43cf06a1bd3b2c181e9be01.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Babussalam Monano<br>
+                <b>Lat:</b> 0.86772<br>
+                <b>Long:</b> 122.69808<br>
+                <b>color:</b> #cfd22f<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_713b53929bffbf9642e38d606186930b = L.polyline(
+                [[0.86772, 122.69808], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_6ac2512bb1b7abafda0f83398884b727 = L.marker(
+                [0.98303, 122.41942],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_07b39fa0ae4da56329aa35762b01695a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6ac2512bb1b7abafda0f83398884b727.setIcon(icon_07b39fa0ae4da56329aa35762b01695a);
+        
+    
+            marker_6ac2512bb1b7abafda0f83398884b727.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Muhajirin Sumalata<br>
+                <b>Lat:</b> 0.98303<br>
+                <b>Long:</b> 122.41942<br>
+                <b>color:</b> #b0e998<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_21b3ee35385e1b0442dfef4d24695fba = L.polyline(
+                [[0.98303, 122.41942], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_2346736613d93a32ee393e29c61c05fd = L.marker(
+                [0.98589, 122.21681],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_fa38feef89d981a7191cb179d2386932 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2346736613d93a32ee393e29c61c05fd.setIcon(icon_fa38feef89d981a7191cb179d2386932);
+        
+    
+            marker_2346736613d93a32ee393e29c61c05fd.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> As Syuhada Biawu<br>
+                <b>Lat:</b> 0.98589<br>
+                <b>Long:</b> 122.21681<br>
+                <b>color:</b> #209daa<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_feb144fa71530ed20ebbd3ad16e7c96d = L.polyline(
+                [[0.98589, 122.21681], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_4a33adcdae6990102a4e3124a570ff04 = L.marker(
+                [1.01467, 122.17558],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_dfc4399668eb763ca215756e35196fa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4a33adcdae6990102a4e3124a570ff04.setIcon(icon_dfc4399668eb763ca215756e35196fa8);
+        
+    
+            marker_4a33adcdae6990102a4e3124a570ff04.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nurulhidayah Tolinggula<br>
+                <b>Lat:</b> 1.01467<br>
+                <b>Long:</b> 122.17558<br>
+                <b>color:</b> #c0284f<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_e642cbbf20f91eca5b6eb4ae905238c7 = L.polyline(
+                [[1.01467, 122.17558], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_b1556b13f180b52029a9054fb49c9212 = L.marker(
+                [0.51642, 122.55542],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_c3fec6aaeb9a9e5d681d1ab7b9b0d459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b1556b13f180b52029a9054fb49c9212.setIcon(icon_c3fec6aaeb9a9e5d681d1ab7b9b0d459);
+        
+    
+            marker_b1556b13f180b52029a9054fb49c9212.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Tahta Nuur Paguyaman Pantai<br>
+                <b>Lat:</b> 0.51642<br>
+                <b>Long:</b> 122.55542<br>
+                <b>color:</b> #c29a4c<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_9dd15678bf986432e9d6cd8a32bd074e = L.polyline(
+                [[0.51642, 122.55542], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_3006a0fccb99f2973e7d7a2a4eed606d = L.marker(
+                [0.63214, 122.57378],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_02761d90170e26d3e09149d7298f5c93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3006a0fccb99f2973e7d7a2a4eed606d.setIcon(icon_02761d90170e26d3e09149d7298f5c93);
+        
+    
+            marker_3006a0fccb99f2973e7d7a2a4eed606d.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An Nuur Paguyaman<br>
+                <b>Lat:</b> 0.63214<br>
+                <b>Long:</b> 122.57378<br>
+                <b>color:</b> #a313c8<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_dbe6a1fe7952393fb1a29b0ee870c1cd = L.polyline(
+                [[0.63214, 122.57378], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_23add5bc2b363ae2fc7b23d80620dd01 = L.marker(
+                [0.58594, 122.47528],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_2852578d22b582555355b35f771b06f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_23add5bc2b363ae2fc7b23d80620dd01.setIcon(icon_2852578d22b582555355b35f771b06f5);
+        
+    
+            marker_23add5bc2b363ae2fc7b23d80620dd01.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An-Nuur Dulupi<br>
+                <b>Lat:</b> 0.58594<br>
+                <b>Long:</b> 122.47528<br>
+                <b>color:</b> #8a8e0b<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_5837f3e0a119c18bc25ffbfa3cb2d508 = L.polyline(
+                [[0.58594, 122.47528], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_64a5926994022f642927a46c74906269 = L.marker(
+                [0.70764, 122.45036],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_26948c5a79543a9401cf67f7380b8db5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_64a5926994022f642927a46c74906269.setIcon(icon_26948c5a79543a9401cf67f7380b8db5);
+        
+    
+            marker_64a5926994022f642927a46c74906269.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Mubaraqah Wonsari<br>
+                <b>Lat:</b> 0.70764<br>
+                <b>Long:</b> 122.45036<br>
+                <b>color:</b> #06470a<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_2500ec8b8358887a83c783f3bcdd51e7 = L.polyline(
+                [[0.70764, 122.45036], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_a09d67f44be75672e8c9b6e1d9eb4533 = L.marker(
+                [0.52111, 122.45472],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_79832c7feb4a50f62301c3cf76b80112 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a09d67f44be75672e8c9b6e1d9eb4533.setIcon(icon_79832c7feb4a50f62301c3cf76b80112);
+        
+    
+            marker_a09d67f44be75672e8c9b6e1d9eb4533.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Ikhlas Dulupi Pantai<br>
+                <b>Lat:</b> 0.52111<br>
+                <b>Long:</b> 122.45472<br>
+                <b>color:</b> #3518f6<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_5652fe61a3112bc95bf29f829358858d = L.polyline(
+                [[0.52111, 122.45472], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_86707ce1b5b2a4ffa872bcb7ca9fd1c6 = L.marker(
+                [0.52194, 122.34556],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_b60f599d0fbdc4719af76d4551fa3b85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_86707ce1b5b2a4ffa872bcb7ca9fd1c6.setIcon(icon_b60f599d0fbdc4719af76d4551fa3b85);
+        
+    
+            marker_86707ce1b5b2a4ffa872bcb7ca9fd1c6.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Baiturrahman Boalemo<br>
+                <b>Lat:</b> 0.52194<br>
+                <b>Long:</b> 122.34556<br>
+                <b>color:</b> #ace0e7<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_3f746a4d2b95f00caa97a8b0d1334aad = L.polyline(
+                [[0.52194, 122.34556], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_25e6dbccbb72df9c7bb18a036aa7cf21 = L.marker(
+                [0.52861, 122.32889],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_f5b81e8181dc932827ce6fb312ad148e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_25e6dbccbb72df9c7bb18a036aa7cf21.setIcon(icon_f5b81e8181dc932827ce6fb312ad148e);
+        
+    
+            marker_25e6dbccbb72df9c7bb18a036aa7cf21.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Baiturrahmah Tilamuta<br>
+                <b>Lat:</b> 0.52861<br>
+                <b>Long:</b> 122.32889<br>
+                <b>color:</b> #8052bd<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_5a4775e714f4e103cc6e6076d2cb162f = L.polyline(
+                [[0.52861, 122.32889], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_3af9823abe3d8e7eefe4be53d27f456b = L.marker(
+                [0.49419, 122.29733],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_a65f6706ffbf91c8b2c0cf378c067757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3af9823abe3d8e7eefe4be53d27f456b.setIcon(icon_a65f6706ffbf91c8b2c0cf378c067757);
+        
+    
+            marker_3af9823abe3d8e7eefe4be53d27f456b.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Ihsan Botumoito<br>
+                <b>Lat:</b> 0.49419<br>
+                <b>Long:</b> 122.29733<br>
+                <b>color:</b> #f87eb4<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_a169e7132c0fbdfac2549e7f1a57ac57 = L.polyline(
+                [[0.49419, 122.29733], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_6bf3c12452712624bd3fdc6da8a208d1 = L.marker(
+                [0.50556, 122.13928],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_29fc70f53c59f5c6c4fe223e664bbbb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6bf3c12452712624bd3fdc6da8a208d1.setIcon(icon_29fc70f53c59f5c6c4fe223e664bbbb9);
+        
+    
+            marker_6bf3c12452712624bd3fdc6da8a208d1.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nurul Mubiin Mananggu<br>
+                <b>Lat:</b> 0.50556<br>
+                <b>Long:</b> 122.13928<br>
+                <b>color:</b> #f096d3<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_b751525d6684e5feb8a047b498ed1948 = L.polyline(
+                [[0.50556, 122.13928], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_7dc9d31909c5a1b884dbe160c08962a6 = L.marker(
+                [0.52694, 122.09],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_b2f2affa38f41c9e33b0c18b3d0b72d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7dc9d31909c5a1b884dbe160c08962a6.setIcon(icon_b2f2affa38f41c9e33b0c18b3d0b72d3);
+        
+    
+            marker_7dc9d31909c5a1b884dbe160c08962a6.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Muttaqin Dengilo<br>
+                <b>Lat:</b> 0.52694<br>
+                <b>Long:</b> 122.09<br>
+                <b>color:</b> #783a3c<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_3a080a47913a6f9481703105deeb9d5f = L.polyline(
+                [[0.52694, 122.09], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_1da986ebf2c166da7300d2809abb172f = L.marker(
+                [0.48667, 122.07486],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_12e381b07335e7813e02f2a84f3ed691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1da986ebf2c166da7300d2809abb172f.setIcon(icon_12e381b07335e7813e02f2a84f3ed691);
+        
+    
+            marker_1da986ebf2c166da7300d2809abb172f.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Bairurrahman Paguat<br>
+                <b>Lat:</b> 0.48667<br>
+                <b>Long:</b> 122.07486<br>
+                <b>color:</b> #cb5ed4<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_26c959d630ab0d07390ef9f94268e8ed = L.polyline(
+                [[0.48667, 122.07486], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_2739d5d4ca2d9741faa5e47fde665ae7 = L.marker(
+                [0.46139, 121.94667],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_ac167be0d06a7f2f7c14ddd5433f371e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2739d5d4ca2d9741faa5e47fde665ae7.setIcon(icon_ac167be0d06a7f2f7c14ddd5433f371e);
+        
+    
+            marker_2739d5d4ca2d9741faa5e47fde665ae7.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> MA Darussalam Pohuwato<br>
+                <b>Lat:</b> 0.46139<br>
+                <b>Long:</b> 121.94667<br>
+                <b>color:</b> #b86e5d<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_8fd5a9f4a35213ff3e7471805116913c = L.polyline(
+                [[0.46139, 121.94667], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_6410c826bf8fd36697d0cd4a0ce73bb9 = L.marker(
+                [0.46739, 121.93636],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_e3f4da7ba2b81e29d6875f668b93bab0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6410c826bf8fd36697d0cd4a0ce73bb9.setIcon(icon_e3f4da7ba2b81e29d6875f668b93bab0);
+        
+    
+            marker_6410c826bf8fd36697d0cd4a0ce73bb9.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An Nuur Marisa<br>
+                <b>Lat:</b> 0.46739<br>
+                <b>Long:</b> 121.93636<br>
+                <b>color:</b> #ec692a<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_7c8b1bece008b17d93b849433889edea = L.polyline(
+                [[0.46739, 121.93636], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_81f2c33bec53c3c0176ab89ecd1639d1 = L.marker(
+                [0.48731, 121.92192],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_da227afcdb3152f1972d47902e190c08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_81f2c33bec53c3c0176ab89ecd1639d1.setIcon(icon_da227afcdb3152f1972d47902e190c08);
+        
+    
+            marker_81f2c33bec53c3c0176ab89ecd1639d1.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Ar- Rayyan Duhiyadaa<br>
+                <b>Lat:</b> 0.48731<br>
+                <b>Long:</b> 121.92192<br>
+                <b>color:</b> #6a2051<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_d020e5709a3dcb0e470be243d59f2018 = L.polyline(
+                [[0.48731, 121.92192], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_df8a1e4697315c04594d5ae999497271 = L.marker(
+                [0.47389, 121.86253],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_3a16a1d046454f7c8c8c54e0f46d5949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_df8a1e4697315c04594d5ae999497271.setIcon(icon_3a16a1d046454f7c8c8c54e0f46d5949);
+        
+    
+            marker_df8a1e4697315c04594d5ae999497271.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nurul Falak Patilanggio<br>
+                <b>Lat:</b> 0.47389<br>
+                <b>Long:</b> 121.86253<br>
+                <b>color:</b> #d19d7e<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_33e998a451d6cecd9117645d68ade9b3 = L.polyline(
+                [[0.47389, 121.86253], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_bae252328317d0f9569733542365a3dc = L.marker(
+                [0.49581, 121.83353],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_12fb239b0f58a14863af34b40ff2979c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bae252328317d0f9569733542365a3dc.setIcon(icon_12fb239b0f58a14863af34b40ff2979c);
+        
+    
+            marker_bae252328317d0f9569733542365a3dc.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Nuurulhayat Buntulia<br>
+                <b>Lat:</b> 0.49581<br>
+                <b>Long:</b> 121.83353<br>
+                <b>color:</b> #e1df79<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_96b0453b95cc70f4b149352ba75600a7 = L.polyline(
+                [[0.49581, 121.83353], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_ffa29ebdbddfcef57a8f2c2a976fc6d0 = L.marker(
+                [0.52699, 121.81233],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_7b89ee2eeeb11bdaf634efb3df190896 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ffa29ebdbddfcef57a8f2c2a976fc6d0.setIcon(icon_7b89ee2eeeb11bdaf634efb3df190896);
+        
+    
+            marker_ffa29ebdbddfcef57a8f2c2a976fc6d0.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Mukhlisin Randagan<br>
+                <b>Lat:</b> 0.52699<br>
+                <b>Long:</b> 121.81233<br>
+                <b>color:</b> #1079aa<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_9d890a5b54fb164ecacefc19df1a00ef = L.polyline(
+                [[0.52699, 121.81233], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_f3b25aa124e628622e4a9104ff3f7802 = L.marker(
+                [0.54806, 121.79],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_796ff35da3e7368f29956c11e11fe232 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f3b25aa124e628622e4a9104ff3f7802.setIcon(icon_796ff35da3e7368f29956c11e11fe232);
+        
+    
+            marker_f3b25aa124e628622e4a9104ff3f7802.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Salafiyah Syafi’iyah Taluditi<br>
+                <b>Lat:</b> 0.54806<br>
+                <b>Long:</b> 121.79<br>
+                <b>color:</b> #689648<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_3b8cc4db5ccf5fa0b0f16675482eea02 = L.polyline(
+                [[0.54806, 121.79], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_627e1867040748c75225a3946ee45049 = L.marker(
+                [0.53619, 121.70239],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_ed4719b3edf40bde15cee8f3afdee350 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_627e1867040748c75225a3946ee45049.setIcon(icon_ed4719b3edf40bde15cee8f3afdee350);
+        
+    
+            marker_627e1867040748c75225a3946ee45049.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Arrayan Wanggarasi<br>
+                <b>Lat:</b> 0.53619<br>
+                <b>Long:</b> 121.70239<br>
+                <b>color:</b> #e1dc82<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_5fab7c17c31a417c884f2f7fecf1a81a = L.polyline(
+                [[0.53619, 121.70239], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_656e3d180857aa5473290653fb00e3d9 = L.marker(
+                [0.54458, 121.57389],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_9bcaac2ff2423cafbd0dbd7a6dbfa7da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_656e3d180857aa5473290653fb00e3d9.setIcon(icon_9bcaac2ff2423cafbd0dbd7a6dbfa7da);
+        
+    
+            marker_656e3d180857aa5473290653fb00e3d9.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> Al Musyawwarah Lemito<br>
+                <b>Lat:</b> 0.54458<br>
+                <b>Long:</b> 121.57389<br>
+                <b>color:</b> #4edeee<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_5dbb216d68c0df0730508a5ab6161a9d = L.polyline(
+                [[0.54458, 121.57389], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_97dc911a507dcb75069ef76a4da90ad1 = L.marker(
+                [0.51033, 121.47467],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_5672a7a96db9555ca15f7b1e7f94d73d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_97dc911a507dcb75069ef76a4da90ad1.setIcon(icon_5672a7a96db9555ca15f7b1e7f94d73d);
+        
+    
+            marker_97dc911a507dcb75069ef76a4da90ad1.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> An-Nuur Popayato Timur<br>
+                <b>Lat:</b> 0.51033<br>
+                <b>Long:</b> 121.47467<br>
+                <b>color:</b> #e4f73b<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_8ce089beac13322f7c673182d4323b10 = L.polyline(
+                [[0.51033, 121.47467], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var marker_0a6eb01735d5948f3150f1965c7579fb = L.marker(
+                [0.49331, 121.41342],
+                {}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            var icon_7893eef8a0e2d8db0b965d7e21f9a78b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "mosque", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0a6eb01735d5948f3150f1965c7579fb.setIcon(icon_7893eef8a0e2d8db0b965d7e21f9a78b);
+        
+    
+            marker_0a6eb01735d5948f3150f1965c7579fb.bindTooltip(
+                `<div>
+                     
+                <b>Nama masjid:</b> At-Taqwa Popayato Barat<br>
+                <b>Lat:</b> 0.49331<br>
+                <b>Long:</b> 121.41342<br>
+                <b>color:</b> #ade97e<br>
+            
+                 </div>`,
+                {"sticky": false}
+            );
+        
+    
+            var poly_line_dbf5c65333d5766244f5c425e160a3ba = L.polyline(
+                [[0.49331, 121.41342], [21.4225, 39.8262]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_0d396fd9d6465532baa8d165fde530b4);
+        
+    
+            feature_group_0d396fd9d6465532baa8d165fde530b4.addTo(map_27456a388306c689ac80226db845bccd);
+        
+    
+            L.control.fullscreen(
+                {"forceSeparateButton": true, "position": "topright", "title": "Expand me", "titleCancel": "Exit me"}
+            ).addTo(map_27456a388306c689ac80226db845bccd);
+        
+    
+            var tile_layer_ad65401091eaeda585c8f692fd5eaaa9 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Tiles \u0026copy; Esri \u0026mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ad65401091eaeda585c8f692fd5eaaa9.addTo(map_27456a388306c689ac80226db845bccd);
+        
+    
+            var tile_layer_90f81567c047ab83bd753aca64b6e522 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_90f81567c047ab83bd753aca64b6e522.addTo(map_27456a388306c689ac80226db845bccd);
+        
+    
+            var tile_layer_75d60b236cd9000c9848cb9a9551bdfe = L.tileLayer(
+                "http://mt1.google.com/vt/lyrs=m\u0026x={x}\u0026y={y}\u0026z={z}",
+                {"attribution": "Google", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_75d60b236cd9000c9848cb9a9551bdfe.addTo(map_27456a388306c689ac80226db845bccd);
+        
+    
+            var layer_control_6d2033c8e8c1644ea06ba16eb654cf7a_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8f78b86caa9171d9d738c924c0afe931,
+                    "esriworldimagery" : tile_layer_ad65401091eaeda585c8f692fd5eaaa9,
+                    "cartodbpositron" : tile_layer_90f81567c047ab83bd753aca64b6e522,
+                    "Google Maps" : tile_layer_75d60b236cd9000c9848cb9a9551bdfe,
+                },
+                overlays :  {
+                    "Titik Masjid" : feature_group_0d396fd9d6465532baa8d165fde530b4,
+                },
+            };
+            let layer_control_6d2033c8e8c1644ea06ba16eb654cf7a = L.control.layers(
+                layer_control_6d2033c8e8c1644ea06ba16eb654cf7a_layers.base_layers,
+                layer_control_6d2033c8e8c1644ea06ba16eb654cf7a_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_27456a388306c689ac80226db845bccd);
+
+        
+</script>
+</html>
